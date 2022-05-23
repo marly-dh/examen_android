@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "252652198856",
+    "firebase_url": "https://examen-attractie-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "examen-attractie",
+    "storage_bucket": "examen-attractie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252652198856:android:225bf83e5baca6bcbd3efd",
+        "android_client_info": {
+          "package_name": "com.e.attractie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252652198856-m7ema4vuncga1rm20i3tpnsgj15mm29d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaP3MUGUEZfrEZaTNP6-u23LPp6hodWag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252652198856-m7ema4vuncga1rm20i3tpnsgj15mm29d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
