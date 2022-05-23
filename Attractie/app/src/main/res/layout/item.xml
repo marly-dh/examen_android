@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardElevation="8dp"
+    android:layout_margin="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
     app:cardCornerRadius="8dp"
-    android:layout_margin="16dp">
+    app:cardElevation="8dp">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -25,15 +28,16 @@
                 android:layout_height="wrap_content"
                 android:text="Naam: "
                 android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvNaam"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Duinrell"
                 android:textColor="@color/black"
-                android:textSize="26sp"/>
+                android:textSize="18sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -47,15 +51,16 @@
                 android:layout_height="wrap_content"
                 android:text="Plaats: "
                 android:textColor="@color/black"
-                android:textSize="26sp"
-                android:textStyle="bold"/>
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/tvPlaats"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Wassenaar"
                 android:textColor="@color/black"
-                android:textSize="26sp"/>
+                android:textSize="18sp" />
         </LinearLayout>
     </LinearLayout>
 
